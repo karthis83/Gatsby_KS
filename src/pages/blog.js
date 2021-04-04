@@ -20,8 +20,8 @@ export default function Blog({ data }) {
 }
 
 export const pageQuery = graphql`
-query($slug: String!) {
-  markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+query {
+  markdownRemark {
     html
     frontmatter {
       date(formatString: "MMMM DD, YYYY")
@@ -31,3 +31,4 @@ query($slug: String!) {
   }
 }
 `
+
