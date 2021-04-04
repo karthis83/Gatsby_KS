@@ -7,7 +7,7 @@ const NavbarLinks = () => {
       <h1>My Site</h1>
         <div><Link to="/test-homepage">Test-Homepage</Link></div>
         <div><Link to="/contact">Contact</Link></div>
-        <div><Link to="/posts">Posts</Link></div>
+        <div><Link to="/posts_new">Posts</Link></div>
     </div>
   )
 }
